@@ -4,13 +4,20 @@ const popupVideo = document.getElementById("popup-video");
 const videoTrigger = document.getElementById("video-trigger");
 const imageTrigger = document.getElementById("image-trigger");
 
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelector("#home-div-1 h1").style.opacity = "1";
+  document.querySelector("#home-div-1 h1").style.transform = "translateY(0)";
+  document.querySelector("#home-div-1 h2").style.opacity = "1";
+  document.querySelector("#home-div-1 h2").style.transform = "translateY(0)";
+});
+
 // Function to position the modal dynamically based on scroll
 function positionModal() {
   const scrollY = window.scrollY || document.documentElement.scrollTop; // Get current scroll position
   const viewportHeight = window.innerHeight; // Viewport height
   const modalContent = videoModal.querySelector(".modal-content");
 
-  modalContent.style.top = `${scrollY + viewportHeight / 20}px`; // Center modal vertically
+  modalContent.style.top = `${scrollY + viewportHeight / 40}px`; // Center modal vertically
 }
 
 // Show modal and position it

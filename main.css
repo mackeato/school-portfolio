@@ -31,6 +31,10 @@
   animation: fadeIn 2s ease forwards;
 }
 
+section {
+  padding-top: 90px;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -61,7 +65,9 @@ header a {
 
 .sticky-header {
   position: fixed;
-  width: 97%;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 70px;
   background-color: #fff6de;
   color: #002626;
@@ -158,6 +164,7 @@ header a {
 .thumb-4 {
   background-image: url(images/rummel-logo.png);
   background-size: 40%;
+  background-color: #fff6de;
 }
 
 #home-div-3 {
@@ -315,6 +322,12 @@ video {
   color: #333;
 }
 
+#modal-text {
+  font-family: bahnschrift;
+  color: #fff6de;
+  font-size: 1em;
+}
+
 /* Img modal */
 .modal-content-2 {
   margin-top: 2000px;
@@ -340,7 +353,7 @@ video {
   text-align: center;
   width: 80%; /* Adjust size as needed */
   margin: 0 auto; /* Center horizontally */
-  margin-top: 2000px;
+  margin-top: 2800px;
 }
 
 #thumb4-image {
