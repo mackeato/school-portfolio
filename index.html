@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body class="fade-in">
+    <header class="sticky-header">
+      <a href="#home">Home</a><a href="#about">About Me</a
+      ><a href="#skills">Skills</a><a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </header>
+    <section id="home">
+      <div id="home-div-1">
+        <h1>PORTFOLIO</h1>
+        <h2>of Markus Ekerheim</h2>
+        <img src="/images/lines.png" alt="" class="lines-img" />
+      </div>
+      <div id="home-div-3">
+        <img src="images/me-again2.png" alt="" id="me-again2" />
+        <img src="images/thisisme2.png" alt="" id="thisisme" />
+      </div>
+    </section>
+    <section id="about">
+      <div id="home-text-wrap-1">
+        <div id="home-text-1">
+          <h1>
+            I am a graphic design and web development student with experience in
+            a little bit of this, aswell as in a bit of that.
+            <br />
+            <br />
+            While my journey began in photoshop, I am familiar with many other
+            adobe programs. In third place comes the programming part of web
+            development, I built this portfolio from scratch so that is
+            something!
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="crew-wrap-wrap">
+        <div class="cred-wrap">
+          <img src="images/Icons/html-5.png" alt="" />
+          <img src="images/Icons/css-3.png" alt="" />
+          <img src="images/Icons/js.png" alt="" />
+        </div>
+        <div class="cred-wrap">
+          <img src="images/Icons/photoshop.png" alt="" />
+          <img src="images/Icons/illustrator.png" alt="" />
+          <img src="images/Icons/indesign.png" alt="" />
+          <img src="images/Icons/premiere-pro.png" alt="" />
+          <img src="images/Icons/after-effects.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <div>
+      <img src="/images/bg-transish-01.png" alt="" class="transition-img" />
+    </div>
+
+    <section id="portfolio">
+      <div id="home-div-2">
+        <div id="portfolio-wrap">
+          <div class="portfolio-thumb thumb-1" id="video-trigger"></div>
+          <div id="video-modal" class="modal">
+            <div class="modal-content">
+              <span id="close-modal" class="close">&times;</span>
+              <video id="popup-video" controls width="600">
+                <source src="video/the-tap-fin.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+          <a
+            href="https://www.figma.com/proto/e5ATtKIgvJdLp4ucNu7ITF/Graphic-profile?page-id=0%3A1&node-id=1-2&node-type=frame&viewport=295%2C177%2C0.52&t=XbJm6G3Dl8ckKMtA-1&scaling=min-zoom&content-scaling=fixed"
+            class="portfolio-thumb thumb-2"
+          ></a>
+          <div class="portfolio-thumb thumb-3" id="image-trigger"></div>
+          <div id="image-modal" class="modal">
+            <div class="modal-content-2">
+              <span id="close-image-modal" class="close">&times;</span>
+              <img
+                id="popup-image"
+                src="images/cargasteinmockup.png"
+                alt="Modal Image"
+              />
+              <img
+                id="popup-image"
+                src="images/carcoffeegastein-01.png"
+                alt="Modal Image"
+              />
+            </div>
+          </div>
+          <div class="portfolio-thumb thumb-4"></div>
+          <div id="thumb4-modal" class="modal">
+            <div class="modal-content">
+              <span id="close-thumb4-modal" class="close">&times;</span>
+              <img
+                id="thumb4-image"
+                src="images/insta-mockup.png"
+                alt="Thumb 4 Modal Image"
+                style="width: 100%; border-radius: 10px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div id="home-div-4">
+        <div class="contact-div">
+          <h1>Contact me</h1>
+          <h2>markus.ekerheim@gmail.com</h2>
+          <h2>070-854 41 55</h2>
+          <div><img src="" alt="" /></div>
+        </div>
+      </div>
+    </section>
+
+    <footer></footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
